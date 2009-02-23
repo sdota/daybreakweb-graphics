@@ -1,0 +1,17 @@
+#main #content #message_delivered_by {width: 40em;}
+#main #content #message_series_id {width: 37em;}
+tr.series, tr.series:hover {background-color: transparent; color: #0062A3; font-size: 1.25em; font-weight: bold;}
+tr.happened {background-color: snow !important;}
+tr td img.row-button {background-color: white !important;}
+tr.series td, tr.independent td {border-top: double #D3D3D3 !important;}
+tr.series td a, tr.series td a:hover {text-decoration: none; color: #0063A5;}
+tr.series td small {font-size: .6em; font-weight: normal;}
+tr.series td p {font-size: .7em !important;}
+tr.series td div {float: right; margin-top: .2em;}
+#message_title {width: 100%;}
+#message_description {width: 100% ; height: 5em;}
+.audio, .outline, .delivered_on {clear: left;}
+th.date, td.date {text-align: right !important;}
+
+
+form p div.field {float: none;}

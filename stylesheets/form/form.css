@@ -1,0 +1,141 @@
+form {
+	margin: 0;
+	padding: 0;
+}
+/*
+form input[type=text], form textarea, form select, form input[type=password], form input[type=file] {
+	background-color: #F9F6F1;
+}
+*/
+
+form input[type=text]:focus, form textarea:focus, form select:focus, form input[type=password]:focus, form input[type=file]:focus {
+	background-color: white;
+}
+a.help_diamond {display: block; float: left; margin-left: 5px;}
+form div.field label, form div.field fieldset label, form div.content label	{
+	width: inherit;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+form div.field, form div.content {
+	margin: .1em .2em .4em;
+	float: left;
+}
+form textarea, form input[type='text'], form select, form input[type='file'], form input[type='checkbox'], form input[type='radio'], form input[type='password'] {
+	font-family: inherit;
+	font-size: inherit;
+	padding: .2em;
+	float: left;
+	clear: left;
+	margin: 0;
+}
+form input[type='checkbox'], form input[type='radio'] {
+	padding: 1em;
+	font-size: 1.1em;
+	height: 1em;
+	width: 1em;
+}
+form div.field label, form div.field fieldset label {
+	display: block;
+}
+form div.field label, form div.field fieldset legend, form div.field fieldset label, form th {
+	font-size: .8em;
+	padding: .2em;
+	font-weight: normal;
+}
+form div.field.required > label, form div.field.required fieldset > legend {
+	font-weight: bold;
+}
+form div.field fieldset legend {
+	font-size: .8em;
+	margin-top: -.2em;
+}
+form input[type='submit'] {
+	clear: both;
+}
+form input[readonly='readonly'] {
+	background-color: #DDD;
+}
+form div.options {
+	clear: both;
+}
+form fieldset ul, form fieldset ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+form fieldset ul li {
+  float: left;
+  text-indent: 0;
+  padding-right: .5em;
+  font-size: .9em;
+  display: inline;
+}
+form div.field.range div {
+	display: block;
+	float: left;
+}
+form div.field.range div.start {
+	clear: left;
+}
+form div.field.range div.between_word {
+	font-size: 1em;
+	padding: .5em .1em .1em;
+  width: auto;
+}
+form div.range label {
+	clear: right;
+	display: block;
+	float: left;
+}
+form div.field.range div {
+	display: block;
+	float: left;
+}
+form div.field img[alt=Calendar] {
+	float: left;
+	margin-left: 2px;
+}
+form div.field.date {
+	width: auto;
+	whitespace: nowrap;
+}
+form div.field.date input {
+	width: 6em;
+}
+form div.field fieldset {
+	width: auto;
+	whitespace: nowrap;
+	margin-top: .1em;
+	padding: .2em .1em .5em;
+}
+form div.field fieldset label {
+	margin: 0 .3em;
+}
+form div.field input[type=checkbox] {
+	margin: .2em;
+}
+form div.imagebox.field > span {
+	display: block;
+	clear: left;
+}
+
+/* standard fields */
+
+form div.field.city input {
+	width: 12em;
+}
+form div.field.state input {
+	width: 2em;
+}
+form div.field.zip input {
+	width: 5.75em;
+}
+form div.field.date input {
+	width: 6em;
+}
+form div.field.datetime input {
+	width: 10em;
+}
+form em.error-with-field small.error { padding-left: 3px; color: red; font-weight: bold;}

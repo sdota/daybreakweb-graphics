@@ -1,0 +1,6 @@
+fieldset {min-height: 5em;}
+fieldset#confirmation_number {float: right; width: auto; height: 5em;}
+fieldset#confirmation_number p {font-size: x-large; font-weight: bold; padding-left: 1em; text-align: center; width: 100%;}
+fieldset#confirmation_number legend {font-size: medium; font-weight: normal;}
+div.field.integer input {width: 2em;}
+.contact_name, .contact_email, .contact_phone {clear: left;}

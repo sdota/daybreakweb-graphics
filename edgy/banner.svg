@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   width="1000"
+   height="150"
+   version="1.0"
+   sodipodi:docbase="/var/www/daybreak/public/images/themes/edgy"
+   sodipodi:docname="banner.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/var/www/daybreak/public/images/themes/edgy/banner.png"
+   inkscape:export-xdpi="67.5"
+   inkscape:export-ydpi="67.5">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     inkscape:window-height="949"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#e19513"
+     id="base"
+     width="1000px"
+     height="150px"
+     inkscape:zoom="3.1307692"
+     inkscape:cx="135.74876"
+     inkscape:cy="65"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="roughedge"
+     style="display:inline">
+    <image
+       y="111.6548"
+       x="0.28009844"
+       id="image2305"
+       height="39"
+       width="1000"
+       sodipodi:absref="/var/www/daybreak/public/images/themes/edgy/ragged-bottom.png"
+       xlink:href="ragged-bottom.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="photos">
+    <image
+       y="-0.38083562"
+       x="0.59950447"
+       id="image2219"
+       height="150"
+       width="1000"
+       sodipodi:absref="/var/www/daybreak/public/images/themes/edgy/header_photos.png"
+       xlink:href="header_photos.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="slogan">
+    <image
+       y="86.71376"
+       x="272.7027"
+       id="image2262"
+       height="25"
+       width="600"
+       sodipodi:absref="/var/www/daybreak/public/images/themes/edgy/slogan.png"
+       xlink:href="slogan.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="logo">
+    <image
+       xlink:href="logo.png"
+       sodipodi:absref="/var/www/daybreak/public/images/themes/edgy/logo.png"
+       width="249"
+       height="130"
+       id="image9"
+       x="9.90172"
+       y="4.7911549" />
+  </g>
+</svg>

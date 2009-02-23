@@ -1,0 +1,168 @@
+/*@import url(../forms.css);*/
+/*
+form p input + a,
+form label + a,
+h1 + a,
+h2 + a,
+h3 + a,
+h1 + a + a,
+h2 + a + a,
+h3 + a + a,
+h1 + a + a + a,
+h2 + a + a + a,
+h3 + a + a + a,
+td.options a {
+	font-size: .8em;
+	font-weight: normal;
+	color: #aaa;
+	margin-left: .5em;
+}
+h1 + a,
+h2 + a,
+h3 + a,
+h1 + a + a,
+h2 + a + a,
+h3 + a + a {
+	float: left;
+}
+*/
+/*
+div.title .datetime {
+	width: 10em !important;
+	font-weight: normal;
+}
+div.title input.textbox {
+	width: 10em !important;
+	font-weight: normal;
+}
+div.title input.date {
+	width: 6em !important;
+}
+div.title input.topic {
+	width: 20em !important;
+}
+*/
+
+
+/*
+#main #content div.page fieldset {
+	float: right;
+	width: 18.5em;
+	clear: none;
+}
+*/
+
+#main #content div.page .options {
+	clear: both;
+	padding; .5em 0;
+}
+#main #content #tab-control #tabs {
+	height: 23px;
+}
+
+
+#main #content .expand {
+	width: 100% !important;
+}
+#main #content label.expand textarea {
+	width: 100% !important;
+	height: 14em;
+}
+#main #content table tr .datetime, #main #content table tr .date {
+	text-align: left;
+}
+#main #content table {
+	border-spacing: 0;
+}
+input[readonly] {
+	background-color: #F5F1E2;
+	color: dimgray;
+	border: dotted 1px #CDC295;
+}
+#main #content input[readonly] {
+	background-color: transparent;
+}
+#main #content tr.node td.page span.w1 p {
+	font-weight: normal;
+	font-size: .8em;
+	margin: -10px 0 0 37px !important;
+	padding: 0;
+}
+
+
+/* tr.node td {height: 3em !important; background-color: lightyellow !important; } */
+/*
+.withdrawn, .canceled, .discontinued {text-decoration: line-through !important;}
+.action {width: 1px; border-right: solid 10px transparent !important;}
+.datetime {width: 15em;}
+.date {width: 9em;}
+input.date {width: 6em;}
+*/
+.description {font-weight: normal; font-size: .8em; margin: -10px 0 0 30px; padding: 0;}
+table.index {padding: 0 !important; margin: 0 0 .3em !important;}
+table.index tr:hover td {background-color: #FFFFB3; /*snow*/}
+.controls {float: right;}
+
+
+.title {margin-bottom: 15px;}
+
+
+#tab-control #tabs {height: 23px;}
+#main #content .buttons input + a {margin-left: 1.5em;}
+#main #content table + a {display: block; margin-top: 1em; clear: both;}
+
+
+label.description {margin: 0;}
+label input + a {display: block; float: left;}
+a.tip {background-image: url(/images/admin/help.png); background-repeat: no-repeat; background-position: right; padding-right: 15px;}
+div.options {min-height: 2.2em; margin: 1.75em 0;}
+div.options a {float: left; display: block; margin-right: .5em; }
+div.options a:hover {background-color: snow;}
+div.options form.search {float: left !important; margin-left: 1em !important; padding: .3em;}
+form.search label span, form.search label span + input{
+	clear: none !important;
+	display: inline !important;
+}
+table + div.options {float: left;}
+a[rel="lightbox"] {border: dotted 1px transparent; padding: .3em; padding-left: 24px; margin-top: .2em; background-image: url(/images/lightbox-image.gif); background-repeat: no-repeat; background-position: 4px;}
+a[rel="lightbox"]:hover {background-color: lightyellow; border: dotted 1px tan;}
+span.image-box {height: 1.9em; vertical-align: baseline;}
+span.image-box span > a + a, span.image-box span > input + a {font-size: 7pt !important; color: #aaa; display: inline !important; float: none !important; clear: none !important; }
+span.image-box span > a + a:hover, span.image-box span > input + a:hover {color: dimgray;}
+
+/* textarea.address {width: 10em !important; height: 4em !important;} */
+textarea.description {width: 10em !important; height: 4em !important; margin-left: 0;}
+input.city {width: 20em;}
+input.state, input.age, input.group_max_size {width: 3em;}
+input.zip {width: 8em;}
+input.time {width: 5em;}
+input.first_name, input.last_name {width: 12em !important;}
+/*
+fieldset {margin: .4em 0; clear: both;}
+fieldset legend {font-size: 1.3em; font-weight: bold;}
+fieldset legend a {font-size: .7em; font-weight: normal;}
+*/
+th.count, td.count {text-align: center !important; width: 5em;}
+th.snug, td.snug {width: 1em;}
+th.modify, td.modify {width: 15em;}
+th.date, td.date {width: 6em;}
+th.contact, td.contact {width: 16em;}
+th.role, td.role {width: 14em;}
+
+#searchbox h3 {margin-top: .5em;}
+#searchbox {display: block; float: right; height: 3.5em; width: 30em; padding: 1em; padding-top: 0; background-color: #F5F1E2; text-align: right; margin: -55px -20px 1em !important;}
+#searchbox label {font-size: 1em; font-weight: normal; display: block !important;}
+#searchbox input[type=submit] {margin-left: .4em;}
+td.center {text-align: center !important;}
+
+.datebox > input, .datebox > img {float: left;}
+.datebox > img {margin-left: 3px;}
+.datebox {white-space: nowrap;}
+
+
+.option_set { margin: 0 0 1em; width: auto; float: left; white-space: no-wrap;}
+.option_set div{ padding: 0 5px; border-left: dotted 1px #DDD; text-align: center; float: left;}
+.option_set div:first-child { border-left: none;}
+.search_params .option_set, .search_params p {clear: both;}
+.search_params p {clear: both; white-space: no-wrap; width: auto;}
+

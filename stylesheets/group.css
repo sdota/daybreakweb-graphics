@@ -1,0 +1,14 @@
+table {font-size: .8em; line-height: 1em; font-weight: normal;}
+table td h2 {margin-bottom: .2em;}
+table td {padding: 1em 1em 0 0; }
+table td.centered {text-align: center;}
+table td.member a {font-size: larger; font-weight: bold;}
+fieldset div.field, table td.size, table td.composition {white-space: nowrap;}
+td.nowrap {white-space: nowrap;}
+fieldset {height: 5em;}
+form fieldset {height: auto;}
+fieldset div.field label {float: left;}
+fieldset.tight {float: left; margin-bottom: 1em;}
+img.dummy-photo, img.photo, fieldset.tight.right {float: right;}
+#age_field input {clear: none;}
+#age_field label {width: auto;}

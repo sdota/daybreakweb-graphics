@@ -1,0 +1,128 @@
+form label {
+	display: block;
+	margin: 0 0 .3em 0;
+	width: 100%;
+	float: left;
+	clear: left;
+}
+form label:hover {
+	background-color: darkgray;
+}
+form label span:first-child {
+	margin-right: .5em;
+	font-size: 1.2em;
+	float: left;
+	width: 7em;
+	display: block;
+}
+form label > span:first-child:after {
+	content: ":";
+}
+form label.radio > span:first-child:after {
+	content: "";
+}
+form label small {
+	font-size: 1em;
+	margin-left: 1em !important;
+	color: midnightblue;
+}
+form label.required span:first-child {
+	font-weight: bold;
+}
+form .buttons {
+	text-align: center;
+}
+form br {
+	clear: both
+}
+form h1, form h2, form h3 {
+	margin: 0;
+}
+form label.sticky {
+	width: auto;
+}
+form label.sticky + label, form div.radio {
+	margin-left: 2em;
+	width: auto;
+	clear: none;
+}
+div.radio {clear: both; display: block; width: 12em !important; height: 2.5em; white-space: nowrap !important; float: left !important;}
+div.radio > label { white-space: nowrap; }
+div.radio > label > span {display: inline !important; font-size: .9em; color: dimgray;}
+div.radio > label > input {display: inline !important;}
+form label.sticky + label span:first-child {
+	width: auto;
+	margin-right: .5em;
+}
+form label.checkbox span:after {
+	content: "";
+}
+form label nobr {
+	clear: left;
+	display: block;
+}
+/* ERRORS */
+
+form label em.error-with-field {
+	display: block;
+	font-size: 1.1em;
+}
+form label em.error-with-field small.error {
+	color: red;
+	font-weight: bold;
+}
+form label em.error-with-field input[type=text], form label em.error-with-field textarea  {
+	background-color: pink;
+}
+
+/* ADMIN PAGE */
+
+#main #content form {
+	border: none;
+}
+#main #content form label {
+	width: auto;
+}
+#main #content form label + small {
+	clear: both;
+	display: block;
+	margin-top: 5px;
+}
+#main #content form label span {
+	display: block;
+	width: auto;
+	clear: both;
+}
+#main #content form label textarea {
+	clear: both;
+	display: block;
+}
+#main #content form label span + input, #main #content form label span + textarea, #main #content form label span + select {
+	clear: left;
+	display: block;
+}
+#main #content form .buttons {
+	text-align: left
+}
+#main #content form label.checkbox span {
+	clear: none;
+	float: left;
+	display: block;
+	margin-top: 5px;
+}
+#main #content form textarea {
+	font-size: 1.3em !important;
+}
+#main #content form label.checkbox input {
+	float: left;
+	width: 1.4em;
+	height: 1.4em;
+}
+#main #content form label:hover, #main #content form label span:first-child:hover, #main #content form label.checkbox:hover {
+	background-color: transparent !important;
+}
+form .controls { clear: both; }
+form label { white-space: nowrap; }
+form label > input + small { font-size: .7em; float: none !important; text-align: right; display: block; margin: 0 !important; width: auto;}
+
+

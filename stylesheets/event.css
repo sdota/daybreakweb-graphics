@@ -1,0 +1,6 @@
+fieldset {background-color: #FEE57F; border: none;}
+fieldset legend { background-color: white; font-weight: bold; }
+fieldset div.field { float: left; padding-right: 1em; }
+
+div.calendar_category {width: 10em; font-weight: bold; font-size: smaller; text-align: center; float: right; }
+a.photo {float: right; margin: 1em 0 0 1em;}

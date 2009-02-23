@@ -1,0 +1,22 @@
+fieldset {width: 35em !important; margin-bottom: .5em !important;}
+form div.field.description textarea {width: 100%; height: 5em;}
+form div.field.meeting_place input, form div.field.address textarea {width: 28em;}
+form div.field.study_topic input {width: 12em}
+#group_profile, #study {float: left; width: 100%;}
+#meetings, #meeting_place {float: right; width: 100%;}
+div.group_meeting textarea { height: 9em !important; width: 41em !important;}
+div.group_meeting fieldset { float: right; width: 18em; background-color: #EAE3C5; height: 28em;}
+#group_description {
+	height: 5em !important;
+}
+input.number{
+	width: 2em;
+}
+input.location {
+	width: 43em;
+}
+#group_max_size, #group_min_age, #group_max_age {width: 2em;}
+.address, .address textarea {float: left; width: 100%;}
+
+#content .textarea {font-size: inherit;}
+th.number, td.number {text-align: right !important;}

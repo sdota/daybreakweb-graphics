@@ -1,0 +1,27 @@
+form.person div.field.city, form div.field.person_type_id, form div.field.photo, form div.field.privacy_level {
+	clear: left;
+}
+form.person div.field.city input {
+	width: 12em;
+}
+form.person div.field.state input {
+	width: 2em;
+}
+form.person div.field.zip input {
+	width: 5em;
+}
+form.person div.field.address textarea {
+	width: 21em;
+}
+form.person fieldset#contact_options_fieldset {
+	float:right;
+	width: auto;
+	position: relative;
+	padding-bottom: 3em;
+}
+form.person fieldset#contact_options_fieldset  a.add_button {
+	display: block;
+	position: absolute;
+	right: 47px;
+}
+form.person div.field.login {float: right; width: 7em;}

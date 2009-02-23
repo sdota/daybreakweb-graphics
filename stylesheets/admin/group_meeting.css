@@ -1,0 +1,7 @@
+fieldset{ float: right; width: 15em;}
+div.field.location {clear: left;}
+div.field textarea {width: 41em; height: 10em;}
+div.field.location input {width: 34em;}
+div.field.guests input {width: 4em;}
+div.title {width: auto !important; white-space: nowrap; clear: none !important;}
+form div.textarea {width: auto !important;}

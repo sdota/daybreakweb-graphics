@@ -1,0 +1,30 @@
+.calbox {
+	font-size: .9em;
+	line-height: 1.2em;
+	text-align: center;
+	padding: .5em;
+	float: left;
+	width: 7.55em;
+	height: 11em;
+	border: solid 1px black;
+	margin: .5em;
+}
+.calbox .calheader {
+	font-weight: bold;
+	text-align: center;
+	background-color: #ffb321;
+	padding: .5em;
+	margin: -.5em;
+	margin-bottom: .5em;
+}
+.calbox .calclosed {
+	background-color: lightgray;
+}
+.calbox .calday {
+	clear: both;
+	font-size: 1.75em;
+	padding-bottom: .5em;
+}
+.calbox .caltime {
+	padding: .5em;
+}

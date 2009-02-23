@@ -1,0 +1,225 @@
+/* general */
+*
+	{background-repeat: no-repeat;}
+*
+	{font-family: Helvetica, Tahoma, Geneva, Arial, sans-serif;}
+body
+	{background-color: white; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6, h3 a
+	{font-family: Georgia; margin: .5em 0 .1em 0;}
+p
+	{margin: 0 0 .5em 0;}
+
+
+
+
+
+
+
+
+/* colors */
+#experience, #services, #separator .top, #separator .bottom, #showcase .edge, #main
+	{ background-color: #ffe680; }
+#serving-your-family
+	{ background-color: #EAD06A; }
+#showcase
+	{ background-color: white; }
+#sidebar
+	{ background-color: #FFEEAA; }
+#footer
+	{ background-color: transparent; padding: 30px 20px 10px 20px; }
+#footer, #main-bottom-edge
+	{  width: 860px; margin: 0 auto; line-height: 1em; clear: both; text-align: center; font-size: .8em;}
+#main-bottom-edge {margin: -20px auto;}
+#main-bottom-edge
+	{ background-image: url(/images/themes/clouds/ragged-bottom-colored.png); background-position: top; height: 45px; width: 900px;}
+
+#sidebar {width: 240px; float: right; margin: 20px -20px 0 20px; font-size: .8em; padding: 5px 15px 10px 15px; border: solid 2px white; }
+#sidebar h1 { font-size: 1.4em;}
+
+/* images */
+body
+	{ background-image: url(/images/themes/clouds/sunrays.png);       background-position: bottom; background-attachment: fixed;}
+#header
+	{ background-color: #BA9139; background-image: url(/images/edgy/white-fade.png); background-repeat: repeat-x;}
+#risingsun
+	{ background-image: url(/images/themes/clouds/risingsun.png);     background-position: 80% 110px ;}
+#header div.edge
+	{ background-image: url(/images/themes/clouds/ragged-bottom.png); background-position: bottom; background-repeat: repeat-x; }
+#main
+	{ background-image: url(/images/themes/clouds/bottom-shadow.png);  background-position: top;}
+#content
+	{ padding: 10px; background-color: white; background-image: url(/images/themes/clouds/rough-top-colored.png); width: 580px; margin: 0 280px 0 20px; min-height: 400px; }
+#experience
+	{ background-image: url(/images/themes/clouds/rough-bottom.png);  background-position: -500px bottom;}
+#showcase
+	{ background-image: url(/images/themes/clouds/rough-top-colored.png); background-position: top; }
+#services
+	{ background-image: url(/images/themes/clouds/bottom-shadow.png); background-position: top;}
+#serving-your-family
+	{ background-image: url(/images/themes/clouds/bottom-shadow.png); background-position: -320px top; }
+div.spotlight
+	{ background-image: url(/images/themes/clouds/spotlight.png);     background-position: center 5px;}
+#directions
+	{ background-image: url(/images/themes/clouds/words/directions.png); background-position: 10px -8px; }
+#directions > div
+	{ background-image: url(/images/themes/clouds/map.png);           background-position: top right; }
+#serving-your-family a#adults
+	{ background-image: url(/images/themes/clouds/block-adults.png);}
+#serving-your-family a#adults:hover
+	{ background-image: url(/images/themes/clouds/block-adults-hilite.png);}
+#serving-your-family a#students
+	{ background-image: url(/images/themes/clouds/block-students.png);}
+#serving-your-family a#students:hover
+	{ background-image: url(/images/themes/clouds/block-students-hilite.png);}
+#serving-your-family a#children
+	{ background-image: url(/images/themes/clouds/block-children.png);}
+#serving-your-family a#children:hover
+	{ background-image: url(/images/themes/clouds/block-children-hilite.png);}
+a#feel .what
+	{ background-image: url(/images/themes/clouds/words/feel.png);}
+a#feel:hover .what
+	{ background-image: url(/images/themes/clouds/words/feel-hilite.png);}
+a#sound .what
+	{ background-image: url(/images/themes/clouds/words/sound.png); }
+a#sound:hover .what
+	{ background-image: url(/images/themes/clouds/words/sound-hilite.png);}
+a#message .what
+	{ background-image: url(/images/themes/clouds/words/message.png);}
+a#message:hover .what
+	{ background-image: url(/images/themes/clouds/words/message-hilite.png);}
+#nav a
+	{ background-image: url(/images/themes/clouds/nav.png); background-position: bottom; }
+#nav a:hover
+	{ background-image: url(/images/themes/clouds/nav-hilite.png);}
+#nav li#current a
+	{ background-image: url(/images/themes/clouds/nav-dull.png);}
+#nav a
+	{ width:  60px; background-position:    0   bottom;}
+#nav a.experience-daybreak
+	{ width: 110px; background-position:  -80px bottom;}
+#nav a.serving-your-family
+	{ width: 185px; background-position: -215px bottom;}
+#nav a.serving-you
+	{ width: 110px; background-position: -430px bottom;}
+#nav a.family
+	{ width:  60px; background-position: -560px bottom;}
+#nav a.events
+	{ width:  60px; background-position: -645px bottom;}
+#nav a.about
+	{ width:  60px; background-position: -735px bottom;}
+
+/* #showcase{background-image: url(sun-swirl.png); background-position: right; } */
+
+/*layout */
+#showcase #event-summary
+	{ margin-top: -15px; }
+#header, #header div.edge, #risingsun
+	{ height: 170px; width: auto; margin: 0;}
+#header
+	{ margin-bottom: 30px; }
+#header div.edge
+	{ border: solid 1px transparent; }
+#main
+	{ padding-top: 30px; }
+#brand
+	{ width: 250px; height: 120px; margin: 50px auto 0; text-align: center; display: block; }
+#brand img
+	{ border: none;}
+#hook
+	{ width: 100%; height: 50px; text-align: center; position: absolute; top: 165px; left: 0; }
+#main
+	{ width: 900px; margin: 0 auto; }
+#experience, #services, div.spotlight
+	{ width: 356px; }
+#experience h2
+	{ margin: -30px 0 0 0;}
+#experience a .bullets
+	{ color: black;}
+#experience a .what
+	{ width: 165px; text-transform: uppercase; margin-left: -25px;}
+#experience a .bullets
+	{ width: 150px;}
+#experience a .icon
+	{ width: 50px; text-align: center;}
+#experience a .icon img
+	{ border: none; display: none;}
+#experience a:hover .what
+	{ color: white;}
+#experience a:hover .icon img
+	{ display: block;}
+#experience a div
+	{ height: 70px; margin: 0; padding: 0; float: left;}
+#experience a .what, #experience a .icon
+	{ line-height: 70px; font-size: 2em;}
+#experience a:hover .bullets
+	{ color: white; }
+#experience ul
+	{ margin:.2em; padding-left: 1em;}
+#showcase, #serving-your-family, #showcase div.top
+	{ width: 478px;}
+#showcase h1
+	{ margin-top: -30px;}
+#experience, #showcase, #services, #serving-your-family, div.spotlight
+	{ float: left; height: 250px;  padding: 1em;}
+div.spotlight
+	{ float: none; height: 220px; margin: -15px;}
+#photo-area
+	{ float: right; margin: 0 0 .7em .7em; height: 170px; width: 220px;}
+#showcase h1
+	{ margin: 0; font-size: 1.5em;}
+#services h2
+	{ margin-bottom: 0;}
+#services h3
+	{ margin: 0;}
+#showcase img#framed,#showcase img#framed2
+	{ display: none;}
+#showcase img#unframed
+	{ display: block;}
+#services p
+	{ margin: 0 0 .5em 0;}
+#directions
+	{ height: 120px; }
+#directions > div
+	{ height: 67px; padding: 50px 80px 0 0 ;}
+#services, #serving-your-family
+	{ height: 285px;}
+#serving-your-family a
+	{ display: block; width: 125px; height: 125px; float: left; margin-right: 1em;}
+#serving-your-family a#children
+	{ margin: 0;}
+#serving-your-family div
+	{ margin: 0 auto; width:410px; height: 125px;}
+#showcase #panel
+	{ display: none; width: 120px; height: 250px; float: right; margin: 15px -15px 0 15px;}
+#feel-summary,#sound-summary,#message-summary
+	{ display: none; padding-right: 120px;}
+#event-summary h1
+	{ font-size: 2em;}
+#event-summary img.photo
+	{ margin-top: -45px;}
+#serving-your-family h2, #services h2, #experience h2
+	{ font-size: 1.8em;}
+#serving-your-family h2, #services h2
+	{ margin-top: .5em;}
+#options
+	{ position: fixed; top: 10px; left: 10px; width: 100px; height: 300px; }
+
+/* navigation */
+
+#nav
+	{ width: 100%; margin: 0; height: 45px;	white-space: nowrap; position: absolute;	top: 0; left: 0; }
+#nav ul
+	{ width: 970px; list-style: none; font-size: 70%; margin: 0 auto; }
+#nav li
+	{ float: left; margin: 0 0 0 2em; padding: 0; line-height: normal; text-indent: 0; text-align: center;}
+#nav a
+	{ display: block; padding: .3em .6em .3em .6em; text-decoration: none; white-space: nowrap; height: 45px; margin-top: -1px; }
+#nav a:hover, #nav #current a, #nav #current
+	{ /* color: #000; */ }
+#nav #current a
+	{	border-color: transparent; }
+#nav a:hover
+	{ color: black; /*	background-color: #FFE680; */ }
+#nav #current a, #nav #current a:hover
+	{ background-color: transparent; }

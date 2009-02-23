@@ -1,0 +1,35 @@
+#search_options { 
+  margin: 2em 0;
+}
+#search_options form input[type=submit] {
+  display: block; 
+  float: left !important; 
+  clear: right;
+}
+#search_options form {
+  padding-bottom: 2em; 
+  float: left; 
+  width: auto;
+}
+#search_options form div.option_set {
+  float: left; 
+  clear: both;
+}
+#search_options form div.option_set div {
+  margin: 2px;
+  float: left;
+  width: auto;
+  padding: 0 2px;
+}
+#search_options form div.field {
+  clear: both;
+}
+#search_options form label {
+  font-weight: bold !important; 
+  clear: both; 
+  float: left;
+}
+#search_options small {
+  float: left;
+  clear: both;
+}

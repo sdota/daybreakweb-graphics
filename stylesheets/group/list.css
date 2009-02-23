@@ -1,0 +1,5 @@
+form#filter_form fieldset div, form#filter_form fieldset label small, form#filter_form fieldset label, form#filter_form fieldset input {display: block; float: left; clear: none; white-space: nowrap; }
+form#filter_form fieldset div input, form#filter_form fieldset div.field label {margin: 0 !important; }
+form#filter_form fieldset div label {margin: 0 .3em 0 .3em !important;}
+form#filter_form fieldset div.readonly label {color: dimgray;}
+form#filter_form fieldset div {margin-right: .7em;}

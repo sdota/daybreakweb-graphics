@@ -1,0 +1,89 @@
+div.title #event_name {
+	width: auto;
+}
+#recurrence_name {
+  font-family: Georgia;
+}
+#event_invitation, 
+#event_description {
+	width: 100%;
+	padding: .25em;
+	height: 6em;
+}
+
+div.field.start_at input, div.field.end_at input {width: 10em !important;}
+#resource_category_description, #event_category_description, #resource_description {
+  width: 29em;
+  height: 5em;
+}
+#event_recurrence_id {
+	width: 20em;
+}
+#event_invitation_color {
+  width: 6em;
+}
+div.setup_minutes input, div.teardown_minutes input {width: 3em;}
+#color_sample {
+	border: dotted 1px black;
+	width: 20px;
+	margin: 0 .5em;
+	display: block;
+  float: left;
+}
+div.right {
+  float: right; 
+  width: 20em;
+}
+div.right fieldset {float: right !important; width: 100%;}
+div.right fieldset.resources div {overflow: auto; min-height: 7em; }
+div.image, 
+div.invitation_image,
+div.invitation_color, 
+div.leader_name, 
+div.setup_minutes,
+div.event_category_id,
+div.location,
+div.recurrence_id,
+div.contact_name, 
+div.contact_email, 
+div.contact_phone,
+div.description
+  {clear: left;}
+div.field.textarea {
+  width: 40em;
+}
+#event_location, #event_location_url {
+  width: 20em;
+}
+h2 {margin: 0;}
+#registrations-page tbody 
+  { overflow-y: scroll; height: 18em !important; }
+#registrations-page .controls 
+  { dmargin-top: -60px;}
+#registration-page table + a 
+  {margin: 0; border: solid 2px red;}
+
+fieldset h3 { margin: .3em 0 0 0; }
+
+th.number, td.number {text-align: center !important; }
+td {padding: .3em !important; border: none !important; border-bottom: solid 1px lightgray !important;}
+th.number, td.number {text-align: center !important; width: 5em !important;}
+tr.totals td {background-color: lightgray; font-weight: bold;}
+
+tbody {overflow-y: hidden; overflow-x: hidden;  }
+tr.norecs { font-color: dimgray; font-weight: bold;}
+tr.norecs > td { text-align: center !important; }
+
+div#restrictions {float: right; }
+fieldset input[type=checkbox] {margin-right: .2em; }
+
+table.basic tr.node td.page {padding: .3em 0 1em !important; }
+
+#calendar_filter div.field {float: left; padding-right: 1em;}
+#calendar_filter { margin-bottom: 1em; border: none; background-color: #F5F5F5;}
+#calendar_filter legend {background-color: white; font-weight: bold; }
+td img.calendar_legend {float: right; }
+td.phone, th.phone {width: 10em; white-space: nowrap; text-align: center; }
+td.datetime, th.datetime {width: 6em;}
+td.name span.category {white-space: nowrap;}
+span.canceled {text-decoration: line-through !important;}

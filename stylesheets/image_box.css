@@ -1,0 +1,3 @@
+div.image-box a[rel=lightbox] { display: inline-block; padding: .2em; width: auto; }
+div.image-box div a.toggle { padding: .7em .1em .7em .3em; margin-left: .4em; font-size: 70%;  }
+div.image-box, div.image-box div, div.image-box a { float: left; width: auto; }

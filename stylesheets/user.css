@@ -1,0 +1,24 @@
+form#login { 
+  background-color: #FFE680; 
+  padding: 1em; 
+  margin: 1.2em auto 1em; 
+  width: 18em; 
+}
+form#login > h2 {
+  font-size: 1.2em; 
+  margin: 0 0 .3em; 
+  text-transform: uppercase; 
+  text-align: center;
+}
+form#login > input[type=text], form#login > input[type=password] { 
+  padding: .2em; 
+}
+form#login > input[type=submit] { 
+  clear: left; 
+}
+form input[type=text], form input[type=password] {
+  width: 16em;
+}
+#user_name, #user_email, #user_login {width: 20em;}
+form .status, form .name, form .login, form .email, form div.content, form .person_record, form .password, form .buttons{clear: left;}
+form div.field small {display: block; clear: left;}

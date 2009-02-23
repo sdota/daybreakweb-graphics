@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+}
+#photo-area { 
+	margin-top: -15px; 
+}
+.panel h1:first-child > img, .panel h2:first-child > img { 
+	margin-top: 7px;
+}
+/*#showcase {background-color: red; }
+#experience {background-color: orange;} */
+#showcase, .right_side {
+	width: 478px !important;
+}
+#experience, .left_side {
+	width: 314px !important;
+}
+.png { 
+	behavior: url(/javascripts/iepngfix.htc); 
+	cursor: pointer; 
+}
+#showcase, #experience {
+	height: 17em;
+}
+.upper.section {
+	width: 100% !important;
+}
+#navh {
+	display: none;
+}
+#content { 
+	width: 575px; 
+}
+#content.full_width { 
+	width: 840px !important; 
+	margin: 0 auto !important; 
+	padding: 5px 10px !important;
+}
+#headbar { 
+	height: 20px !important;
+}
+#header {
+	margin-top: 2px;
+}
+.summary { 
+	height: 120px;
+}
+#nav, #nav ul { 
+	width: 855px !important; 
+}
+div.spotlight, #nav a:hover, #nav #current a, #nav #current a:hover, .gradient, #page form, body { 
+	background-image: none !important; 
+}
+#nav a { 
+	background-image: url(/images/themes/edgy/button.gif); 
+}
+#nav a:hover, #nav #current a, #nav #current a:hover { 
+	background-image: url(/images/themes/edgy/button-active.gif); 
+}
+

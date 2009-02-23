@@ -1,0 +1,79 @@
+#main #content #tab-control #tabs {
+	height: 30px;
+}
+div.page {
+  min-height: 25em;
+}
+table.index {
+  padding: 0 !important; margin: 0 0 .3em !important;
+}
+table.index tr:hover td {
+  background-color: #FFFFB3; /*snow*/
+}
+td {
+  padding: .3em !important;
+  border: none !important;
+  border-bottom: solid 1px lightgray !important;
+}
+#main #content tr.node td.page span.w1 p {
+	font-weight: normal;
+	font-size: .8em;
+	margin: -10px 0 0 37px !important;
+	padding: 0;
+}
+.form-area p {
+	clear: left;
+}
+form div.title .expanding_toggle {
+  display: block;
+  float: left;
+  clear: both;
+  padding-bottom: 5px;
+}
+form div.title {
+	font-weight: normal;
+  display: block;
+  float: left;
+  clear: both;
+  padding-bottom: 5px;
+}
+form div.field span.before, form div.field span.after {
+	display: block;
+	float: left;
+	height: 1.3em; margin-top: .7em;
+}
+form div.field span.before {padding-right: .3em;}
+form div.field span.after {padding-left: .3em;}
+form div.field input, form div.field textarea, form div.field select {
+	font-family: sans;
+	padding: 1px 0;
+	font-size: 1.2em;
+}
+form div.title div.field input {
+	font-size: 28.667px !important;
+	font-family: Georgia, Palatino, 'Times New Roman', Times, Arail;
+	width: 18em;
+}
+form div.field label {
+	font-family: 'Lucida Grande', 'Bitstream Vera Sans', Helvetica, Verdana, Arial, sans-serif;
+	font-size: 14.333px !important;
+	margin: 0;
+	padding: 0;
+}
+form div.textarea {
+	border: none !important;
+	height: auto !important;
+	width: 100%;
+}
+form > fieldset {
+	padding: .2em;
+}
+
+div.options {padding-bottom: 1em; float: left;}
+div.options div.secondary, div.right { display: block; float: right;}
+
+a.image-button {border: solid 1px #C7E2F0; padding: .68em; display: inline; float: none; clear: none; margin: 0 .4em 0 0; font-size: .8em; -moz-border-radius: 5px; border-radius: 5px; text-decoration: none; color: black;}
+a.image-button
+a.image-button:hover {cursor: pointer;}
+
+div.options div.secondary a.image-button {float: left;}

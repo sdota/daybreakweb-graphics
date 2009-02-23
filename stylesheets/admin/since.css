@@ -1,0 +1,4 @@
+form.search {margin-left: 10px;}
+form.search, form.search input#since.date, form.search label {display: inline !important; clear: none !important; float: none !important; }
+div.field.text.since {display: inline !important; }
+form.search div.field {white-space: nowrap; float: none;}

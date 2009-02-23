@@ -1,0 +1,7 @@
+div#relationships-page fieldset {width: auto !important; clear: both !important; float: none !important; }
+th.position_title, td.position_title {width: 12em;}
+th.full_title, td.full_name {width: 12em;}
+table#supervisors th, table#positions th {text-align: left;}
+div.address {width: auto !important;}
+div.external_id {clear: left; }
+div.external_id input {width: 7em; margin-right: 1em;}

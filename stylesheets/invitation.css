@@ -1,0 +1,104 @@
+/*body.for_invitation #header {display: none;}*/
+
+form div.field {clear: both;}
+form div.field textarea, form div.field input[type=text] {width: 20em;}
+form div.buttons {clear: both;}
+form div.field small {display: block; clear: both;}
+
+body.for_invitation {margin: 0 auto;}
+body.for_invitation #footer {display: none;}
+body.for_invitation #content {width: 100%;}
+body.for_invitation #content form {background-color: white;}
+body.for_invitation #content form input[type='text'], body.for_invitation #content form textarea {background-color: #D8F1FF;}
+body.for_invitation h1 {text-align: center;}
+
+form#invitation_entry label {
+	float: left;
+	width: 7em;
+	clear: left;
+	font-size: .9em;
+}
+form#invitation_entry #sender, #entry #recipients {
+	height: 180px;
+	padding: 0 20px 0 0;
+	vertical-align: top;
+}
+form#invitation_entry h2 {
+	margin: 0 0 5px 0;
+	font-size: 1.1em;
+}
+form#invitation_entry { width: 25em; }
+form#invitation_entry input[type=text], form#invitation_entry textarea {padding: .5em;}
+form#invitation_entry textarea { width: 16em; }
+form#invitation_entry p { display: block; clear: both; margin: 0 0 .5em !important; height: auto !important; }
+form#invitation_entry p.field { height: 3em; }
+form#invitation_entry p.message { height: 4em; }
+form#invitation_entry p.recipients { height: 5em; }
+form#invitation_entry .footnote { padding-left: 90px; clear: both; font-size: .7em; }
+form#invitation_entry input[type=submit] {margin: .5em auto .5em; clear: both;}
+
+#invitation {
+	margin: 10px auto !important;
+}
+
+.evite, #invitation {
+	clear: both;
+	background-color: #FFB70B;
+	background-color: #AC8C9B;
+	border: solid 1px black;
+	height: 620px !important;
+	width: 780px !important;
+	text-align: center;
+	margin: 5px;
+	position: relative;
+}
+.evite #details, #invitation #details {
+	font-family: "Trebuchet MS", Tahoma, Serif;
+	width: 340px;
+	float: right;
+	margin: 10px 10px 10px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+.evite p, #invitation p {
+	width: auto;
+}
+.evite #evitemessage, #invitation #personalized_message {
+	margin: 0;
+	font-size: 1.3em;
+	text-align: left;
+}
+.evite img.photo, #invitation img.photo {
+	width: 400px;
+	float: left;
+	margin: 10px;
+}
+.evite p.invitation, #invitation p.invitation {
+	font-size: 2em;
+	line-height: 1.1em;
+	margin: 10px 0 5px;
+}
+#invitation p.when .day { font-size: 2em; font-weight: bold;}
+#invitation p.when .time {font-size: .8em;}
+.evite .location, #invitation .location {
+	padding: 10px;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	width: 340px;
+	text-align: center;
+	border-top: solid 2px black;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.event {height: 115px; margin-bottom: 1em; width: 600px; }
+.calendar_page {background-image: url(/images/calendar_icons/bluegray.png); background-repeat: no-repeat; font-family: Tahoma; width: 79px; float: left; margin-right: 10px; clear: left; height: 80px;}
+.calendar_page .month { width: auto; color: white; font-weight: bold; vertical-align: middle; padding: 0; text-align: center; font-size: .8em;}
+.calendar_page .day   {font-size: 3em; text-align: center; height: 40px; padding: 4px; line-height: 1em; color: #A5B9CF;}
+.event .subtitle {font-size: .8em; margin: -5px 0 0 0;}
+.event h2 {margin: 5px 0 0 0;}
+p.flash {font-size: 1.5em; text-align: center;}
+/*.event a {float: right; margin-top: 85px;}*/

@@ -1,0 +1,15 @@
+div.search_options {float: left; clear: both;}
+
+small.expanding_toggle { display: block; float: left; clear: both; margin: 0 0 1em; padding: .2em 0; height: 1em;}
+
+form.search div.field { float: left; width: 100%; margin: 0 0 .5em;}
+form.search div.field div.option_set { width: 100%; }
+form.search div.field div.option_set div { float: left; padding: 3px;  }
+form.search br {float: left; clear: both;}
+
+hr {clear: both; background-color: white; color: white; border-color: white;}
+
+/* the search options result set */
+table h2 {font-size: 1.1em; margin: 0;}
+#content p {display: block;}
+table td {padding: .3em .5em !important; }
