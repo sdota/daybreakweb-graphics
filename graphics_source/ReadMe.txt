@@ -1,0 +1,1 @@
+Source Files for Photoshop with layers etc...should be saved in this directory.  Folders may be created where helpful.

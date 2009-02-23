@@ -1,0 +1,1 @@
+Source Files for Photoshop with layers etc...should be saved in this directory if they are for the message graphics.
